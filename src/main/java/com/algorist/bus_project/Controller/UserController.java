@@ -13,6 +13,7 @@ import java.util.Map;
 
 @RestController
 public class UserController {
+    //logger
     private Logger logger = LoggerFactory.getLogger(UserController.class);
 
     @Autowired
