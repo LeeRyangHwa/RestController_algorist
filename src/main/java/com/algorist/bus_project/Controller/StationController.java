@@ -1,7 +1,9 @@
 package com.algorist.bus_project.Controller;
 
+import com.algorist.bus_project.Service.StationService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,6 +14,9 @@ import java.util.Map;
 
 @RestController
 public class StationController {
+    @Autowired
+    StationService stationService;
+
     //logger
     private Logger logger = LoggerFactory.getLogger(UserController.class);
 
@@ -25,6 +30,8 @@ public class StationController {
 
         //값 로그 확인
         logger.info("######  x:"+x+"  y:"+y);
+
+        stationService.Surrounding();
 
         return mapList;
     }
