@@ -20,7 +20,7 @@ public class UserController {
     LoginService loginService;
 
     @RequestMapping(path = "/login", produces = "application/json; charset=UTF-8")
-    public Map<String, Object>test1Controller(HttpServletRequest request){
+    public Map<String, Object>loginController(HttpServletRequest request){
         Map<String, Object> map = new HashMap<>();
 
         String id = request.getParameter("id");
