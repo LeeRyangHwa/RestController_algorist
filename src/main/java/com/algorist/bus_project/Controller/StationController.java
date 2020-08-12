@@ -24,11 +24,8 @@ public class StationController {
 
         Map<String, List<Object>> map = new HashMap<>();
 
-        String x = request.getParameter("x_location");
-        String y = request.getParameter("y_location");
-
-//        x="126.985886";
-//        y="37.560813";
+        String x = request.getParameter("x_location");   //x="126.985886";
+        String y = request.getParameter("y_location");   //y="37.560813";
 
         //값 로그 확인
         logger.info("######  x:"+x+"  y:"+y);
