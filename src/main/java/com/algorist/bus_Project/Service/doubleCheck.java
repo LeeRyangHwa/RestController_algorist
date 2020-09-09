@@ -1,4 +1,4 @@
-package com.algorist.bus_project.Service;
+package com.algorist.bus_Project.Service;
 
 import org.springframework.stereotype.Service;
 

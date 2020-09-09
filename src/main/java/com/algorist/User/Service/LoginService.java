@@ -1,7 +1,7 @@
-package com.algorist.bus_project.Service;
+package com.algorist.User.Service;
 
-import com.algorist.bus_project.Mapper.UserMapper;
-import com.algorist.bus_project.Vo.User;
+import com.algorist.User.Mapper.UserMapper;
+import com.algorist.User.Vo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

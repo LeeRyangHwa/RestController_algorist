@@ -1,6 +1,6 @@
-package com.algorist.bus_project.VoTest;
+package com.algorist.bus_Project.VoTest;
 
-import com.algorist.bus_project.Vo.User;
+import com.algorist.User.Vo.User;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -1,7 +1,7 @@
-package com.algorist.bus_project.ServiceTest;
+package com.algorist.bus_Project.ServiceTest;
 
-import com.algorist.bus_project.Service.doubleCheck;
-import com.algorist.bus_project.Vo.Station_data;
+import com.algorist.bus_Project.Service.doubleCheck;
+import com.algorist.bus_Project.Vo.Station_data;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;

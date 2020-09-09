@@ -1,7 +1,7 @@
-package com.algorist.bus_project.Service;
+package com.algorist.bus_Project.Service;
 
-import com.algorist.bus_project.Mapper.StationMapper;
-import com.algorist.bus_project.Vo.Station_data;
+import com.algorist.bus_Project.Mapper.StationMapper;
+import com.algorist.bus_Project.Vo.Station_data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package com.algorist.bus_project.Mapper;
+package com.algorist.User.Mapper;
 
-import com.algorist.bus_project.Vo.User;
+import com.algorist.User.Vo.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;

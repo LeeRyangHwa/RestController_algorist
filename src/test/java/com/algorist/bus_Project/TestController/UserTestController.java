@@ -1,4 +1,4 @@
-package com.algorist.bus_project.TestController;
+package com.algorist.bus_Project.TestController;
 
 
 import org.junit.Test;

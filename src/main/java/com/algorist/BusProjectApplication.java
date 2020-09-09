@@ -1,4 +1,4 @@
-package com.algorist.bus_project;
+package com.algorist;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

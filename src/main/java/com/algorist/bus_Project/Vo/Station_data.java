@@ -1,4 +1,4 @@
-package com.algorist.bus_project.Vo;
+package com.algorist.bus_Project.Vo;
 
 import lombok.Builder;
 import lombok.Getter;

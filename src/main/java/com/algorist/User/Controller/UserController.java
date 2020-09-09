@@ -1,11 +1,12 @@
-package com.algorist.bus_project.Controller;
+package com.algorist.User.Controller;
 
-import com.algorist.bus_project.Service.LoginService;
-import com.algorist.bus_project.Vo.User;
+import com.algorist.User.Service.LoginService;
+import com.algorist.User.Vo.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;

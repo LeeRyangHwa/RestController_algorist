@@ -1,4 +1,4 @@
-package com.algorist.bus_project.Vo;
+package com.algorist.User.Vo;
 
 import lombok.*;
 
