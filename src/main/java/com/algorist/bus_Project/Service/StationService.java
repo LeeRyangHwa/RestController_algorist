@@ -1,6 +1,6 @@
 package com.algorist.bus_Project.Service;
 
-import com.algorist.bus_Project.Mapper.StationMapper;
+import com.algorist.bus_Project.Mapper.StationRepository;
 import com.algorist.bus_Project.Vo.Station_data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 @Service
 public class StationService { //주변역에 관한 정보 모두 제공
     @Autowired
-    StationMapper stationMapper;
+    StationRepository stationRepository;
     @Autowired
     doubleCheck doubleCheck;
 
@@ -21,7 +21,7 @@ public class StationService { //주변역에 관한 정보 모두 제공
         double location_x = Double.parseDouble(x);
         double location_y = Double.parseDouble(y);
 
-        List<Station_data> stationList = stationMapper.findAll();
+        List<Station_data> stationList = stationRepository.findAll();
 
         stationList = stationList.stream()
                 .filter(s -> s.getX_location() > location_x && s.getX_location() - location_x < 0.001 || s.getX_location() < location_x && location_x - s.getX_location() < 0.001)

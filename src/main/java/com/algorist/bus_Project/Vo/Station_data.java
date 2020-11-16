@@ -1,13 +1,21 @@
 package com.algorist.bus_Project.Vo;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Getter
 @Setter
-@Builder
+@Entity
+@NoArgsConstructor(access = AccessLevel.PUBLIC)
 public class Station_data {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int seq;
+
     private String line_id;
     private String line_name;
     private String number;
